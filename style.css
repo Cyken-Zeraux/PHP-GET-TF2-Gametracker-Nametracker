@@ -1,0 +1,151 @@
+@font-face {
+    font-family: tf2;
+    src: url(tf2.ttf);
+}
+
+@font-face {
+    font-family: tf2build;
+    src: url(tf2build.ttf);
+}
+
+@font-face {
+    font-family: tf2professor;
+    src: url(tf2professor.ttf);
+}
+
+@font-face {
+    font-family: tf2secondary;
+    src: url(tf2secondary.ttf);
+}
+
+@font-face {
+    font-family: tfd;
+    src: url(tfd.ttf);
+}
+
+.tf2font {
+    font-family: tf2;
+}
+
+.tf2buildfont {
+    font-family: tf2build;
+}
+
+.tf2professorfont {
+    font-family: tf2professor;
+}
+
+.tf2secondaryfont {
+    font-family: tf2secondary;
+}
+
+.tfdfont {
+    font-family: tfd;
+}
+
+
+html {
+  background: url('carbon_fibre_big.png') repeat;
+  min-height:100%;
+}
+
+body {
+  background:none;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.container {
+  background: none;
+}
+
+.audiowidefont {
+  font-family: 'Audiowide', cursive;
+}
+
+.verdanafont {
+  font-family: verdana;
+}
+
+#newbody {
+  display:none;
+}
+
+#inputbody {
+  position:relative;
+  z-index:1;
+  background: white;
+  padding:25px;
+  margin-left:auto;
+  margin-right:auto;
+  top:25px;
+  width:610px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  box-shadow:         0px 0px 23px 5px rgba(255, 255, 255, 0.41);
+  -moz-box-shadow:    0px 0px 23px 5px rgba(255, 255, 255, 0.41);
+  -webkit-box-shadow: 0px 0px 23px 5px rgba(255, 255, 255, 0.41);
+}
+
+#inputbody li {
+  display:inline;
+}
+
+#javabody {
+  position:relative;
+  z-index:2;
+  width:825px;
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align: middle;
+  top:75px;
+  
+}
+
+#javabodylist {
+  position:relative;
+  z-index:2;
+  padding:25px;
+  background: white;
+  width:400px;
+  border-style:solid;
+  vertical-align: middle;
+  font-family: 'Verdana';
+  display:inline-block;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  box-shadow:         0px 0px 25px 5px rgba(119, 255, 245, 0.41);
+  -moz-box-shadow:    0px 0px 25px 5px rgba(119, 255, 245, 0.41);
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(119, 255, 245, 0.41);
+}
+
+#javamathlist {
+  position:relative;
+  z-index:2;
+  padding:25px;
+  background: white;
+  width:200px;
+  float:right;
+  vertical-align:top;
+  border-style:solid;
+  display:inline-block;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  box-shadow:         0px 0px 30px 5px rgba(255, 66, 66, 0.41);
+  -moz-box-shadow:    0px 0px 30px 5px rgba(255, 66, 66, 0.41);
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(255, 66, 66, 0.41);
+}
+
+.leftblock {
+  display:inline-block
+}
+
+.rightblock {
+  display:inline-block;
+  padding: 0px;
+  margin: 0px;
+  margin-left:25px;
+}
